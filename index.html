@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore BIH</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMtdKdf2j5C7hcjo/6WPEj5D1N3zZvDyFX9a8u7"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="brand">Explore BIH</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <div class="navigation-items">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="explore.html">Explore</a>
+          <a href="#gallery">Gallery</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="home">
+      <video
+        class="video-slide"
+        src="Welcome to Bosnia and Herzegovina - (Official Promo Video 2017).mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div class="content">
+        <h1>
+          Welcome to <span style="color: blue">Bosnia</span> & Herzegovina.
+          <br />
+        </h1>
+        <p>
+          Bosnia and Herzegovina, often referred to simply as Bosnia, is a
+          country located in Southeast Europe on the Balkan Peninsula. It is
+          known for its rich history, diverse cultural heritage, and stunning
+          natural landscapes. The country is bordered by Croatia to the north
+          and west, Serbia to the east, and Montenegro to the southeast.
+          Sarajevo, the capital city, is famous for its blend of Ottoman,
+          Austro-Hungarian, and modern influences, as well as its vibrant
+          cultural scene.
+        </p>
+        <a href="about.html">Read more</a>
+      </div>
+      <!--<div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>-->
+    </section>
+    <script type="text/javascript">
+      const menuBtn = document.querySelector('.menu-btn');
+
+      menuBtn.addEventListener('click', () => {
+        menuBtn.classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
